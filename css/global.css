@@ -223,45 +223,6 @@ p {
     color: #f3f3f3;
 }
 
-/* Cards layout */
-.cards-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background-color: rgb(9, 33, 47);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(23, 162, 229, 0.6);
-    width: 250px;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(23, 162, 229, 0.8);
-    cursor: pointer;
-}
-
-.card-content {
-    text-align: center;
-}
-
-.card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #ffffff;
-}
-
-.card-description {
-    font-size: 1rem;
-    color: #c2c2c2;
-}
-
 /* Cards Img layout */
 .cards-wrapper-2 {
     display: flex;
