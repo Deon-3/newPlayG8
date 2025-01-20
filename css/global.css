@@ -17,6 +17,47 @@ p {
     width: 45%;
 }
 
+/* Home-Page */
+.hero-section {
+    background-image: url('../images/home/Hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.text-hero-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    padding-right: 2%;
+    width: 40%;
+}
+
+.text-hero-section p {
+    font-size: 1.5rem;
+}
+
+.home-btn {
+    background-color: rgb(9, 101, 148);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.hero-btn:hover {
+    background-color: rgb(23, 162, 229);
+    color: #ffffff;
+}
+
+/* Rest */
 .playg8-img {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -51,6 +92,26 @@ p {
     margin-left: 3%;
     margin-right: 3%;
     max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(23, 162, 229);
+}
+
+.playg8-img-5 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(23, 162, 229);
+}
+
+.playg8-img-6 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 43%;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgb(23, 162, 229);
 }
