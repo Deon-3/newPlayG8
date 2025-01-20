@@ -1,7 +1,7 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 25px auto;
     background-color: rgb(4, 44, 79, 0.3);
     padding: 25px;
     max-width: 500px;
