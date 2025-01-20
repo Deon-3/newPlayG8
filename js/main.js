@@ -70,3 +70,15 @@ function hideSidebar() {
   const sidebar = document.querySelector('.sidebar');
   sidebar.style.display = 'none';
 }
+
+// Show user-sidebar
+function showUserSidebar() {
+  const sidebar = document.querySelector('.user-sidebar');
+  sidebar.style.display = 'flex';
+}
+
+// Hide user-sidebar
+function hideUserSidebar() {
+  const sidebar = document.querySelector('.user-sidebar');
+  sidebar.style.display = 'none';
+}
