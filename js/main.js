@@ -57,6 +57,25 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("#navbar", "components/navbar.html", () => {
     highlightActiveLink();
   });
+
+  // Enable mailto on the contact form (no backend required)
+  const contactForm = document.querySelector(".contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const surname = document.getElementById("surname").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      const recipient = "jason@playg8.co.za"; // e.g., support@playg8.com
+      const subject = `Contact from ${name} ${surname}`;
+      const body = `Name: ${name} ${surname}\nEmail: ${email}\n\n${message}`;
+
+      window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    });
+  }
 });
 
 // Show sidebar
